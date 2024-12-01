@@ -6,7 +6,7 @@ if (!fs.existsSync(photoPath)) {
     console.error(`Fayl topilmadi: ${photoPath}`);
 }
 // Bot tokeningiz
-const token = '7859042837:AAFqI43rBqAaINbgPdMhyEMxHVOCGqVaHV4';
+const token = 'YOUR_TOKEN';
 const bot = new TelegramBot(token, { polling: true });
 
 // Foydalanuvchi tanlagan tilni saqlash uchun
